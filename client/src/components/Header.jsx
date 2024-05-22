@@ -17,12 +17,12 @@ export default function Header() {
             type='text'
             placeholder='Search....'
             rightIcon={AiOutlineSearch}
-            className='hidden lg:inline'
+            className='hidden lg:bvinline'
 
         />
       </form>
       <Button className='w-12 h-10 lg:hidden'color='gray'pill>
-        <AiOutlineSearch />
+        <AiOutlineSearch />bv
       </Button>
       <div className='flex grap-2 md:order-2'>
         <Button className='w-12 h-10 hidden sm:inline' color='gray' pill>
