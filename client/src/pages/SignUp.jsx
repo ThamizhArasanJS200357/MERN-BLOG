@@ -92,7 +92,7 @@ export default function SignUp() {
           <Link to='/sign-up' className='text-blue-500'>
             Sign In
           </Link>
-        </div>
+        </div> 
         {
           errorMessage &&(  //&& checks if errorMessage has a value. If errorMessage has a value, the expression after the && operator is evaluated
           <Alert className='mt-5' color='failure'>
